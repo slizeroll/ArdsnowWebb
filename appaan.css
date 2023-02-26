@@ -1,0 +1,22 @@
+body {
+	margin 0;
+	padding 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: radial-gradient(circle at 50% 50%, #222, #111, #000000);
+}
+
+.content {
+	width: 80vmin;
+	height: 80vmin;
+	position: relative;
+	animation: spin 5s linear 0s infinite;
+}
+
+akeyframes spin {
+	
+}
